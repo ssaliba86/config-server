@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitlab.com/s.saliba/spring-boot-config-server.git
+
+
+
+server:
+  port: ${port:8888}
